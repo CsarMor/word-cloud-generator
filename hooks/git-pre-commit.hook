@@ -10,7 +10,7 @@ fi
 go fmt 2>&1
 if [ $? -ne 0 ]
 then
-	echo "go fmt has detected potential issues with your project..."
+	echo "go fmt has detected potential issues with your project...(some changed text)"
 	exit 1
 fi
 
